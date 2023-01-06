@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/info.png);
+  background-position: left -40px top 180px;
+  background-color: #150b20;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+}
+/*navbar*/
+.navbar-1 {
+  font-family: "Unbounded", cursive;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  gap: 17px;
+  padding-top: 2rem;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+.links:hover {
+  color: #ff2975;
+}
+.logo {
+  margin-right: 2rem;
+}
+
+/*page-tilte*/
+.pg-title {
+  font-family: "Unbounded", cursive;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 6rem;
+}
+.subtitle {
+  font-family: "Unbounded", cursive;
+  color: white;
+  text-align: center;
+  margin-top: 6rem;
+}
+/*table*/
+.main {
+  margin: 4rem 4rem 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+  border-width: 2px;
+
+  border-style: solid;
+  color: #000000;
+  font-family: "Unbounded", cursive;
+}
+
+table td,
+table th {
+  border-width: 2px;
+  border-color: #00ca4e;
+  border-style: solid;
+  padding: 3px;
+  height: 70px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: white;
+}
+
+.main-titl {
+  background-color: #00ca4e;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.name {
+  width: 300px;
+  text-align: center;
+}
+.content {
+  padding: 1rem 1rem 1rem 1rem;
+}
+.weblink {
+  color: white;
+  text-decoration: none;
+  user-select: none;
+}
+.weblink:focus {
+  outline: none !important;
+}
+/* footer*/
+.divider {
+  width: 100vw;
+}
+.footer {
+  height: 30px;
+}
+.txt-footer {
+  position: absolute;
+  font-family: "Unbounded", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 3rem;
+  margin: 7rem 1rem 1rem 7rem;
+}
+.footer-links {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+/*button*/
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+button.learn-more {
+  width: 16rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #ff2975;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  font-family: "Unbounded", cursive;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 40px;
+  bottom: 0;
+  padding: 1rem 0.5rem 0.5rem 2.8rem;
+  margin: 0 0 0 1.85rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  user-select: none;
+}
+.link:focus {
+  outline: none !important;
+}
+
+/*media*/
+@media (width>1100px) {
+  .txt-footer {
+    margin: 3rem 1rem 1rem 3rem !important;
+  }
+}
+@media (width<1100px) {
+  .links {
+    font-size: 0.8rem;
+  }
+  .navbar-1 {
+    gap: 9px;
+  }
+  .txt-footer {
+    margin: 3rem 1rem 1rem 3rem !important;
+  }
+  .footer-links {
+    font-size: 12px !important;
+  }
+}
+
+@media (width<900px) {
+  body {
+    background-position: left -60px top 180px;
+    background-size: 128px;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.7rem;
+  }
+  .name {
+    width: 200px;
+  }
+  .txt-footer {
+    margin: 2rem 1rem 1rem 2rem !important;
+  }
+  .footer-links {
+    font-size: 12px !important;
+  }
+}
+@media (width<750px) {
+  body {
+    background-position: left -80px top 180px;
+    background-size: 128px;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.57rem;
+  }
+  .name {
+    width: 150px;
+  }
+  .text-title {
+    font-size: 2.2rem;
+  }
+  .card {
+    width: 390px;
+  }
+
+  .txt-footer {
+    margin: 2rem 1rem 1rem 2rem !important;
+  }
+  .footer-links {
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="img/trojan.png" />
+    <title>КОМПЮТЪРНИТЕ ВИРУСИ</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-1">
+        <img src="img/trojan.png" alt="" class="logo" />
+        <a class="links" href="/">Начало</a>
+        <a class="links" href="/virus-types.html">Видове вируси</a>
+        <a class="links" href="/anitivirus.html">Антивирусен софтуер</a>
+        <a class="links" href="/info.html">Информация</a>
+        <a class="links" href="/ask-more.html">Въпроси</a>
+      </div>
+    </nav>
+    <div id="cursor"></div>
+    <section class="main-container">
+      <div class="cont">
+        <div class="animated-texts">
+          <p class="line title">YOU HAVE BEEN INFECTED</p>
+          <p class="subtitle">
+            Съобщението, което никой от нас не иска да вижда
+          </p>
+        </div>
+        <img src="img/new.svg" alt="" id="animated" />
+      </div>
+    </section>
+    <section class="statistics">
+      <div class="block1">
+        <p class="blocktxt1">
+          Има повече от 1 милиард malware програми в света
+        </p>
+        <p class="blocktxt1_1">*(AV-Test Institute)</p>
+      </div>
+      <div class="block2">
+        <p class="blocktxt2">
+          Всяка седмица Google открива 50 уебсайта съдържащи malware
+        </p>
+        <p class="blocktxt2_1">*(Google)</p>
+      </div>
+      <div class="block3">
+        <p class="blocktxt3">
+          47% от безплатните антивирусни за Android не могат правилно да открият
+          malware
+        </p>
+        <p class="blocktxt3_1">*(Comparitech)</p>
+      </div>
+    </section>
+    <section class="virus-nfo">
+      <div class="nfo-title-container">
+        <p class="info-title">КАКВО СА КОМПЮТЪРНИТЕ ВИРУСИ</p>
+        <img src="img/virus.png" class="nfo-img" />
+        <div class="article-1">
+          <div class="card">
+            <div class="tools">
+              <div class="circle">
+                <span class="red box"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow box"></span>
+              </div>
+              <div class="circle">
+                <span class="green box"></span>
+              </div>
+            </div>
+            <div class="card__content">
+              > Компютърният вирус е вид компютърна програма, която, когато бъде
+              изпълнена, се репликира, като модифицира други компютърни програми
+              и вмъква свой собствен код.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="txt-footer">
+        <a class="footer-links" href="/">Начало</a
+        ><a
+          class="footer-links"
+          href="https://www.sciencedirect.com/topics/engineering/computer-virus"
+          target="_blank"
+          >Изследвания</a
+        >
+        <a
+          class="footer-links"
+          href="https://haveibeenpwned.com/"
+          target="_blank"
+          >Проверка за изтичане на пароли</a
+        >
+      </div>
+      <img src="img/wave-haikei-4.svg" class="divider" />
+    </section>
+
+    <script>
+      var cursor = document.getElementById("cursor");
+      document.addEventListener("mousemove", function (e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+      });
+    </script>
+  </body>
+</html>
