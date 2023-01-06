@@ -291,3 +291,25 @@ button:hover .button-text {
     font-size: 12px !important;
   }
 }
+@media (width<680px) {
+  body {
+    background-position: left -80px top 180px;
+    background-size: 10px;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.3rem;
+  }
+  .logo {
+    width: 30px;
+  }
+
+  .txt-footer {
+    margin: 1rem 0.5rem 0.5rem 1rem !important;
+  }
+  .footer-links {
+    font-size: 6px !important;
+  }
+}

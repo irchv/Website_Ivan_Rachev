@@ -436,3 +436,61 @@ button:hover .button-text {
     font-size: 12px !important;
   }
 }
+@media (width<680px) {
+  body {
+    background-size: 128px;
+  }
+  .logo {
+    width: 30px;
+  }
+  .line {
+    font-size: 15px;
+  }
+  .title-main {
+    font-size: 18px !important;
+  }
+  .main-block {
+    margin-left: 0;
+    height: 450px;
+    width: 350px;
+    padding: 1rem 3rem 4rem 3rem;
+  }
+  .text-info {
+    font-size: 9px;
+  }
+  .title {
+    margin-bottom: 5px;
+  }
+  .divider-img {
+    width: 80px;
+    height: 80px;
+  }
+  .main-block2 {
+    margin-right: 0;
+    height: 450px;
+    width: 350px;
+    padding: 0.5rem 3rem 4rem 3rem;
+  }
+  .title2 {
+    padding-top: 0;
+    font-size: 19px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .text-info2 {
+    font-size: 10px;
+    padding-top: 0;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.3rem;
+  }
+  .txt-footer {
+    margin: 1rem 0.5rem 0.5rem 1rem !important;
+  }
+  .footer-links {
+    font-size: 6px !important;
+  }
+}

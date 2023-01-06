@@ -488,3 +488,62 @@ body {
     font-size: 12px !important;
   }
 }
+@media (width<680px) {
+  .logo {
+    width: 30px;
+  }
+
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.3rem;
+  }
+
+  .block1 {
+    margin-left: 0;
+    height: 450px;
+    width: 350px;
+    padding: 1rem 3rem 4rem 3rem;
+  }
+  .block1content {
+    font-size: 11px;
+  }
+  .block1title {
+    margin-bottom: 5px;
+  }
+
+  .block2 {
+    margin-right: 0;
+    height: 450px;
+    width: 350px;
+    padding: 1rem 3rem 4rem 3rem;
+  }
+  .block2title {
+    padding-top: 0;
+  }
+  .block2content {
+    font-size: 11px;
+    padding-top: 0;
+  }
+  .block3 {
+    margin-left: 0;
+    height: 450px;
+    width: 350px;
+    padding: 1rem 3rem 4rem 3rem;
+  }
+  .block3title {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .block3content {
+    font-size: 9px;
+  }
+
+  .txt-footer {
+    margin: 1rem 0.5rem 0.5rem 1rem !important;
+  }
+  .footer-links {
+    font-size: 6px !important;
+  }
+}

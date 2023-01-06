@@ -312,3 +312,35 @@ table th {
     font-size: 12px !important;
   }
 }
+@media (width<680px) {
+  body {
+    background-size: 128px;
+  }
+  .logo {
+    width: 30px;
+  }
+  .line {
+    font-size: 15px;
+  }
+  .text-title {
+    font-size: 28px !important;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.3rem;
+  }
+  .name {
+    font-size: 12px !important;
+  }
+  .content {
+    font-size: 10px !important;
+  }
+  .txt-footer {
+    margin: 1rem 0.5rem 0.5rem 1rem !important;
+  }
+  .footer-links {
+    font-size: 6px !important;
+  }
+}
