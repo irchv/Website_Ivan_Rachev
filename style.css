@@ -253,6 +253,56 @@ body {
     margin-bottom: 2rem !important;
   }
 }
+@media (width<680px) {
+  .logo {
+    width: 30px;
+  }
+  .line {
+    font-size: 15px;
+  }
+  .subtitle {
+    font-size: 10px !important;
+  }
+  .navbar-1 {
+    gap: 7px;
+  }
+  .links {
+    font-size: 0.3rem;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .nfo-img {
+    margin-top: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .block1 {
+    padding: 1rem 1rem 1rem 1rem !important;
+  }
+  .block2 {
+    padding: 1rem 1rem 1rem 1rem !important;
+  }
+  .block3 {
+    padding: 1.4rem 1rem 1rem 1rem !important;
+  }
+  .txt-footer {
+    margin: 1rem 0.5rem 0.5rem 1rem !important;
+  }
+  .footer-links {
+    font-size: 6px !important;
+  }
+  .info-title {
+    font-size: 1.5rem !important;
+  }
+  .card {
+    width: 290px !important;
+    height: 254px !important;
+  }
+  .card__content {
+    font-size: 12px !important;
+  }
+}
 /* info article*/
 .virus-nfo {
   background-color: #120c17;
