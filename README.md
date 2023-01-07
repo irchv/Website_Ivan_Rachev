@@ -4,16 +4,28 @@
 
 ## Цветова гама:
 
-##Color scheme:
+#ff901f
+#f222ff
+#ff2975
+
+## Color scheme:
+
 #ff901f
 #f222ff
 #ff2975
 
 ## Типография:
 
+Шрифт:
+Unbounded
+300
+400
+500
+600
+link: https://fonts.google.com/specimen/Unbounded
+
 ## Typography:
 
-Шрифт:
 Font:
 Unbounded
 300
@@ -23,6 +35,8 @@ Unbounded
 link: https://fonts.google.com/specimen/Unbounded
 
 ## Дизайн на сайта:
+
+Дизайнът на сайта е от минималистичен тип, с главна цел да предаде максимално информация и да не бъде натоварващ за потребителя.
 
 ## Design of the website:
 
