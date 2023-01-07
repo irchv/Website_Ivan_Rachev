@@ -492,6 +492,17 @@ body {
   .logo {
     width: 30px;
   }
+  body {
+    background-position: right -180px top 180px;
+    background-size: 150px;
+  }
+  .title {
+    font-size: 1.2rem !important;
+  }
+  .shield {
+    width: 60px;
+    height: 60px;
+  }
 
   .navbar-1 {
     gap: 7px;
