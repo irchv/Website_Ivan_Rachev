@@ -163,11 +163,17 @@ body {
   }
 }
 @media (width<900px) {
+  body {
+    overflow-x: hidden !important;
+  }
   #animated {
     animation: float 6s ease-in-out infinite;
     transform: translateY();
     padding-top: 3rem;
     height: 220px;
+  }
+  .main-container {
+    height: 250px;
   }
   .line {
     font-size: 20px;
@@ -200,10 +206,14 @@ body {
 }
 @media (width<750px) {
   #animated {
+    width: 110px;
     animation: float 6s ease-in-out infinite;
     transform: translateY();
     padding-top: 3rem;
     height: 220px;
+  }
+  .main-container {
+    height: 250px;
   }
   .line {
     font-size: 20px;
@@ -239,6 +249,9 @@ body {
   }
 }
 @media (width<680px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .blocktxt1 {
     font-size: 15px !important;
   }
@@ -254,8 +267,17 @@ body {
   }
 }
 @media (width<680px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .logo {
     width: 30px;
+  }
+  #animated {
+    width: 90px;
+  }
+  .main-container {
+    height: 250px;
   }
   .line {
     font-size: 15px;
