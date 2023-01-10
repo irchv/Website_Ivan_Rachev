@@ -40,5 +40,4 @@ link: https://fonts.google.com/specimen/Unbounded
 
 ## Design of the website:
 
-Дизайнът на сайта е от минималистичен тип, с главна цел да предаде максимално информация и да не бъде натоварващ за потребителя.
 The design of the website is kept minimalistic and its main point is to deliver as much information as possible for the user.
