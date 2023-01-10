@@ -42,6 +42,7 @@ html {
   font-family: "Unbounded", cursive;
   text-align: center;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 /*---------------------------------------------*/
 a {
@@ -414,6 +415,9 @@ textarea.input1 + .shadow-input1 {
 @media (width<750px) {
   .navbar-1 {
     gap: 7px;
+  }
+  .text__title {
+    font-size: 0.8rem !important;
   }
   .links {
     font-size: 0.57rem;
