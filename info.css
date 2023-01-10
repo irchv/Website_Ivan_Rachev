@@ -349,7 +349,7 @@ button:hover .button-text {
     margin-left: 150px;
   }
   .text-info {
-    font-size: 15px;
+    font-size: 12px;
   }
   .main-block2 {
     height: 450px;
@@ -358,7 +358,7 @@ button:hover .button-text {
     padding: 2rem 4rem 4rem 4rem;
   }
   .text-info2 {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 @media (width<900px) {
